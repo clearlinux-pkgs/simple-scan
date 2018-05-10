@@ -4,7 +4,7 @@
 #
 Name     : simple-scan
 Version  : 3.28.1
-Release  : 1
+Release  : 2
 URL      : https://download.gnome.org/sources/simple-scan/3.28/simple-scan-3.28.1.tar.xz
 Source0  : https://download.gnome.org/sources/simple-scan/3.28/simple-scan-3.28.1.tar.xz
 Summary  : No detailed summary available
