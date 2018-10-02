@@ -4,7 +4,7 @@
 #
 Name     : simple-scan
 Version  : 3.30.1.1
-Release  : 9
+Release  : 10
 URL      : https://download.gnome.org/sources/simple-scan/3.30/simple-scan-3.30.1.1.tar.xz
 Source0  : https://download.gnome.org/sources/simple-scan/3.30/simple-scan-3.30.1.1.tar.xz
 Summary  : No detailed summary available
