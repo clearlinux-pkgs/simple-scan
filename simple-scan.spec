@@ -652,7 +652,7 @@ DESTDIR=%{buildroot} ninja -C builddir install
 /usr/share/doc/simple-scan/COPYING
 
 %files man
-%defattr(-,root,root,-)
+%attr(0644,root,root)
 /usr/share/man/man1/simple-scan.1.gz
 
 %files locales -f simple-scan.lang
