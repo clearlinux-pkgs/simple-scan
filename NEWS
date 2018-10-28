@@ -1,12 +1,14 @@
-Overview of changes in simple-scan 3.31.1
+Overview of changes in simple-scan 3.30.2
 
-  * Replace scan menu with a popdown
-  * Make ActionBar buttons wide to match design
-  * Drop legacy toolbar support
+  * Updated translations
+
+Overview of changes in simple-scan 3.30.1.1
+
+  * Rebuild tarball as 3.30 releases have out of date content
+
+Overview of changes in simple-scan 3.30.1
+
   * Update homepage from Launchpad to gitlab.gnome.org
-  * Remove some GTK+ code that isn't present in GTK+ 4
-  * Update About menu item to new standard name
-  * Make about dialog app name translatable
 
 Overview of changes in simple-scan 3.30.0
 
