@@ -1,14 +1,36 @@
-Overview of changes in simple-scan 3.32.2.1
+Overview of changes in simple-scan 3.34.0
 
   * Updated translations
 
-Overview of changes in simple-scan 3.32.2
-
-  * New application icon
-
-Overview of changes in simple-scan 3.32.1
+Overview of changes in simple-scan 3.33.92
 
   * Updated translations
+
+Overview of changes in simple-scan 3.33.91
+
+  * Updated translations
+
+Overview of changes in simple-scan 3.33.90
+
+  * Change (user visible) name to "Document Scanner"
+  * Updated icon
+
+Overview of changes in simple-scan 3.33.4
+
+  * Reinstate shortcut keys that stopped working in 3.32
+  * Fix page delay preferences not working correctly
+
+Overview of changes in simple-scan 3.33.3
+
+  * Updated translations
+
+Overview of changes in simple-scan 3.33.2
+
+  * Make icon landscape
+
+Overview of changes in simple-scan 3.33.1
+
+  * Use new app icon
 
 Overview of changes in simple-scan 3.32.0
 

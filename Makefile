@@ -1,5 +1,5 @@
 PKG_NAME := simple-scan
-URL = https://download.gnome.org/sources/simple-scan/3.32/simple-scan-3.32.2.1.tar.xz
+URL = https://download.gnome.org/sources/simple-scan/3.34/simple-scan-3.34.0.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
