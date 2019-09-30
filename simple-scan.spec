@@ -4,7 +4,7 @@
 #
 Name     : simple-scan
 Version  : 3.34.0
-Release  : 18
+Release  : 19
 URL      : https://download.gnome.org/sources/simple-scan/3.34/simple-scan-3.34.0.tar.xz
 Source0  : https://download.gnome.org/sources/simple-scan/3.34/simple-scan-3.34.0.tar.xz
 Summary  : Simple scanning utility
@@ -21,6 +21,7 @@ BuildRequires : colord
 BuildRequires : colord-dev
 BuildRequires : itstool
 BuildRequires : libwebp-dev
+BuildRequires : pkgconfig(colord)
 BuildRequires : pkgconfig(gtk+-3.0)
 BuildRequires : pkgconfig(gusb)
 BuildRequires : pkgconfig(libwebp)
@@ -29,6 +30,7 @@ BuildRequires : pkgconfig(libxml-2.0)
 BuildRequires : pkgconfig(packagekit-glib2)
 BuildRequires : pkgconfig(sane-backends)
 BuildRequires : vala-dev
+Patch1: fix-use-of-possibly-unassigned-local-variable-data.patch
 
 %description
 [![Build Status](https://gitlab.gnome.org/GNOME/simple-scan/badges/master/build.svg)](https://gitlab.gnome.org/GNOME/simple-scan/pipelines)
@@ -87,14 +89,14 @@ man components for the simple-scan package.
 
 %prep
 %setup -q -n simple-scan-3.34.0
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1568045923
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1569819812
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
