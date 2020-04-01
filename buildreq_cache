@@ -1,7 +1,5 @@
-3.34.2
-colord-dev
+3.36.1
 libwebp-dev
-pkgconfig(colord)
 pkgconfig(libwebp)
 pkgconfig(libwebpmux)
 pkgconfig(packagekit-glib2)
