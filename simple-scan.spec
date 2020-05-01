@@ -4,7 +4,7 @@
 #
 Name     : simple-scan
 Version  : 3.36.2
-Release  : 23
+Release  : 24
 URL      : https://download.gnome.org/sources/simple-scan/3.36/simple-scan-3.36.2.tar.xz
 Source0  : https://download.gnome.org/sources/simple-scan/3.36/simple-scan-3.36.2.tar.xz
 Summary  : No detailed summary available
@@ -26,7 +26,6 @@ BuildRequires : pkgconfig(gusb)
 BuildRequires : pkgconfig(libwebp)
 BuildRequires : pkgconfig(libwebpmux)
 BuildRequires : pkgconfig(libxml-2.0)
-BuildRequires : pkgconfig(packagekit-glib2)
 BuildRequires : pkgconfig(sane-backends)
 BuildRequires : vala-dev
 
@@ -94,7 +93,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588218324
+export SOURCE_DATE_EPOCH=1588349568
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

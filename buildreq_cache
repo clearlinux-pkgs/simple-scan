@@ -2,4 +2,3 @@
 libwebp-dev
 pkgconfig(libwebp)
 pkgconfig(libwebpmux)
-pkgconfig(packagekit-glib2)
