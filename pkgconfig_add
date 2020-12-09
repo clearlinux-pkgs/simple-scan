@@ -2,5 +2,7 @@
 # not get picked up automatically. One name per line, no whitespace.
 gtk+-3.0
 gusb
-sane-backends
+libwebp
+libwebpmux
 libxml-2.0
+sane-backends
