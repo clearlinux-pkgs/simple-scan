@@ -1,20 +1,23 @@
-Overview of changes in simple-scan 3.38.5
+Overview of changes in simple-scan 40.0
 ~~~~~~~~~~~~~~
-Released: 2021-03-12
+Released: 2021-03-23
 
-  * Fix resolution set for Epson scanners.
-  * Don't repeat vendor name in the device name
-  * Fix crop size after decreasing page size
   * Updated translations.
 
-Overview of changes in simple-scan 3.38.2
+Overview of changes in simple-scan 40.beta
 ~~~~~~~~~~~~~~
-Released: 2020-12-08
+Released: 2021-02-25
 
-  * Add new text resolution 200 dpi [#175].
-  * Fix crash when scanning on Lexmark MFP.
-  * Display an error, when no documents found in the feeder during start scanning [#195].
-  * Do not use is_inhibited() as it is not reliable, check the cookie value instead.
+  * Don't repeat vendor name in the device name.
+  * GNOME 40 consistency updates.
+  * Fix crop size after decreasing page size.
+  * UI fixes: change crop icon, improve layout of buttons.
+  * Add redetect button to device list.
+  * Add new resolution 200 DPI.
+  * Add zero second delay for Multiple Pages from FlatBed.
+  * Display an error, when no documents found in the feeder.
+  * Rename 'Start again' button to 'New document'.
+  * Fix crash on lexmark backend.
   * Updated translations.
 
 Overview of changes in simple-scan 3.38.1
