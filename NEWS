@@ -1,11 +1,17 @@
-Overview of changes in simple-scan 40.7
+Overview of changes in simple-scan 42.0
 ~~~~~~~~~~~~~~
-Released: 2021-12-23
+Released: 2022-03-18
 
-  * Fix replacing underscore with space in scanner names.
-  * Delete autosave records after creating new document.
+  * Skip virtual devices when detecting scanners.
+  * Add support for postprocessing scripts.
+  * Save Window state to user's .config folder instead of user's .cache folder.
+  * Updates 'About' dialog to match with other GNOME apps.
+  * Delete autosave records after creating new document [#278].
+  * Fix replacing underscore with space.
+  * Fix autosave of Page Side property [#273].
   * Add the device name to the label if there are several identical models.
-  * Fix autosave of Page Side property.
+  * Fix incorrect scan button tooltips.
+  * Updated translations.
 
 Overview of changes in simple-scan 40.6
 ~~~~~~~~~~~~~~
