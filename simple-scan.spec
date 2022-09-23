@@ -4,7 +4,7 @@
 #
 Name     : simple-scan
 Version  : 42.5
-Release  : 40
+Release  : 41
 URL      : https://download.gnome.org/sources/simple-scan/42/simple-scan-42.5.tar.xz
 Source0  : https://download.gnome.org/sources/simple-scan/42/simple-scan-42.5.tar.xz
 Summary  : No detailed summary available
